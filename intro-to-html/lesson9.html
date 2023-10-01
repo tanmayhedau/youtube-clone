@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* div{
+      background-color: red;
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+    } */
+      .div1 {
+        width: 400px;
+        border: 1px solid grey;
+        height: 90px;
+      }
+      .div1 > p {
+        margin-left: 10px;
+        font-family: Arial;
+        font-size: 15px;
+      }
+      .div1 > button {
+        margin-left: 10px;
+      }
+      .music {
+        width: 350px;
+        height: 100px;
+        background-color: rgb(27, 22, 22);
+        color: white;
+      }
+      .music > .title {
+        font-family: Arial;
+        font-size: 26px;
+        padding-left: 10px;
+        padding-top: 13px;
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+      .music > .desc {
+        color: grey;
+        margin-top: 10px;
+        font-family: Arial;
+        padding-left: 10px;
+        font-size: 14px;
+      }
+      .tweet {
+        width: 350px;
+        margin-top: 20px;
+        /* vertical-align: ; */
+        height: 70px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+      .image {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+        border-radius: 100px;
+        margin-left: 14px;
+      }
+      .tweet > input {
+        vertical-align: middle;
+        margin-bottom: 34px;
+        /* margin: 20px; */
+        color: grey;
+        font-family: Arial;
+        padding-left: 10px;
+        padding: 18px 0;
+        margin-left: 9px;
+        border: none;
+      }
+      .tweet > .tweetbtn {
+        background-color: rgb(16, 137, 236);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 100px;
+        padding: 10px 16px;
+        font-size: 15px;
+        vertical-align: middle;
+        /* display:; */
+        margin-left: 20px;
+        margin-bottom: 34px;
+      }
+      .card {
+        height: 300px;
+        width: 150px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .card > img {
+        width: 150px;
+        height: 150px;
+      }
+      .container {
+        width: 500px;
+        height: 300px;
+        /* background: #000; */
+        text-align: center;
+      }
+       .image {
+        margin: 20px;
+        margin-left: 100px;
+        width: 100px;
+        height: 70px;
+        margin: 0 auto;
+      }
+
+       .google {
+        margin-top: 0;
+        align-items: center;
+        margin-bottom: 30px;
+        width: 500px;
+        height: 40px;
+        border: none;
+        border-radius: 100px;
+        padding-left: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+          rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      }
+      .google-btn{
+        display: inline-block;
+        background-color: rgb(205, 199, 199);
+        border: none;
+        color: black;
+        padding: 10px 10px;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div></div> -->
+    <div class="div1">
+      <p>Satisfied with our service?</p>
+      <button>Yes</button>
+      <button>No</button>
+    </div>
+    <div class="music">
+      <p class="title">Install YouTube Music</p>
+      <p class="desc">
+        Add YouTube Music to your desktop for quick and easy access
+      </p>
+    </div>
+    <div class="tweet">
+      <img class="image" src="/thumbnails/thumbnail-1.webp" alt="" />
+      <input type="text" placeholder="What's happening?" />
+      <button class="tweetbtn">Tweet</button>
+    </div>
+
+    <div class="card">
+      <img src="/thumbnails/thumbnail-2.webp" alt="" />
+      <p class="title">Oliver</p>
+      <p>2 mutual friends</p>
+      <button>Add Friend</button>
+    </div>
+    <div class="card">
+      <img src="/thumbnails/thumbnail-2.webp" alt="" />
+      <p class="title">Oliver</p>
+      <p>2 mutual friends</p>
+      <button>Add Friend</button>
+    </div>
+    <div class="card">
+      <img src="/thumbnails/thumbnail-2.webp" alt="" />
+      <p class="title">Oliver</p>
+      <p>2 mutual friends</p>
+      <button>Add Friend</button>
+    </div>
+    <div class="container">
+        <img class="image" src="https://tinyurl.com/msu29jxs" alt="" />
+        <input
+          class="google"
+          type="text"
+          placeholder="Search Google or type a URL" />
+          <button class="google-btn">Google Search</button>
+          <button class="google-btn">I'm Feeling Lucky </button>
+    </div>
+  </body>
+</html>

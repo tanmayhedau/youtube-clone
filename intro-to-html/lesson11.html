@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p{
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .container1 {
+        display: grid;
+        grid-template-columns: 200px 75px;
+      }
+      .container2 {
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+      }
+      .container3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+      }
+      .container4{
+        display: grid;
+        grid-template-columns: 140px 140px 140px;
+        column-gap: 30px;
+      }
+      .cat-pic{
+        width: 140px;
+        height: 120px;
+        object-fit: cover;
+      }
+       .small-img{
+        display: inline-block;
+      }
+      .small-img > img{
+        height: 20px;
+        border-radius: 100px;
+        margin-left: 5px;
+        margin-top: 2px;
+      }
+      .small-p{
+        display: inline-block;
+        vertical-align: top;
+      }
+      .small-p > p{
+        color: rgb(120, 120, 120);
+        font-size: 12px;
+        margin-top:4px;
+        margin-left: 2px;
+      }
+      .small-btn > button{
+        background-color: rgb(2, 113, 232);
+        border: none;
+        color: white;
+        margin-top: 4px;
+        padding: 7px 13px;
+        margin-left: 5px;
+        border-radius: 4px;
+        font-size: 12px;
+      }
+      .box{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container1">
+      <div style="background-color: aqua">200px</div>
+      <div style="background-color: yellow">75px</div>
+    </div>
+    <div class="container2">
+      <div style="background-color: aqua">col1</div>
+      <div style="background-color: rgb(58, 124, 124)">col2</div>
+      <div style="background-color: rgb(49, 73, 73)">col3</div>
+    </div>
+    <div class="container3">
+      <div style="background-color: aquamarine">col1</div>
+      <div style="background-color: yellowgreen">col2</div>
+      <div style="background-color: aquamarine">col3</div>
+      <div style="background-color: yellowgreen">col4</div>
+      <div style="background-color: aquamarine">col5</div>
+      <div style="background-color: yellowgreen">col6</div>
+      <div style="background-color: aquamarine">col7</div>
+      <div style="background-color: yellowgreen">col8</div>
+    </div>
+    <div class="container4">
+      <div class="box">
+        <div class="cat-container">
+          <img class="cat-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+        </div>
+        <div>
+          <p class="cat-title">Oliver</p>
+        </div>
+        <div class="container-sm">
+          <div class="small-img">
+            <img src="/channels/channel-1.jpeg" alt="" />
+          </div>
+          <div class="small-p">
+            <p>2 mutual friends</p>
+          </div>
+        </div>
+        <div class="small-btn">
+          <button>Add Friend</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="cat-container">
+          <img class="cat-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+        </div>
+        <div>
+          <p class="cat-title">Oliver</p>
+        </div>
+        <div class="container-sm">
+          <div class="small-img">
+            <img src="/channels/channel-1.jpeg" alt="" />
+          </div>
+          <div class="small-p">
+            <p>2 mutual friends</p>
+          </div>
+        </div>
+        <div class="small-btn">
+          <button>Add Friend</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="cat-container">
+          <img class="cat-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+        </div>
+        <div>
+          <p class="cat-title">Oliver</p>
+        </div>
+        <div class="container-sm">
+          <div class="small-img">
+            <img src="/channels/channel-1.jpeg" alt="" />
+          </div>
+          <div class="small-p">
+            <p>2 mutual friends</p>
+          </div>
+        </div>
+        <div class="small-btn">
+          <button>Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

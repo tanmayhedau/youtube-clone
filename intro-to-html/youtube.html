@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube.com</title>
+    <style>
+      .thumbnail {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        object-position: center;
+        object-fit: cover;
+      }
+      .search-bar {
+        font-size: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        border-radius: 6px;
+        border: 1px solid grey;
+      }
+      .google-search {
+        margin-left: 10px;
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 300px;
+        border-radius: 150px;
+        border: none;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+      }
+      .email {
+        color: grey;
+        margin-bottom: 0;
+      }
+      .email-input {
+        margin-top: 5px;
+        width: 370px;
+        height: 25px;
+      }
+      .text {
+        width: 390px;
+        color: grey;
+        font-family: Arial;
+      }
+      .agree {
+        background-color: rgb(3, 105, 229);
+        border: none;
+        color: #fff;
+        width: 380px;
+        height: 50px;
+        font-size: 20px;
+        /* padding: 10px 50px; */
+        border-radius: 120px;
+      }
+      .image {
+        margin-top: 30px;
+        border-radius: 100px;
+        height: 40px;
+        width: 40px;
+        object-position: center;
+        object-fit: cover;
+        vertical-align: middle;
+      }
+      .inp4{
+        color: grey;
+        font-family: Arial;
+        border: none;
+        vertical-align: middle;
+        margin-top: 30px;
+        margin-left: 10px;
+      }
+      .tweet{
+        vertical-align: middle;
+        margin-top: 30px;
+        background-color: rgb(30, 168, 242);
+        border: none;
+        padding: 6px 10px;
+        color: white;
+        font-weight: bold;
+        border-radius: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" />
+    <input class="search-bar" type="text" placeholder="Search" />
+    <input
+      class="google-search"
+      type="text"
+      placeholder="Search google or type a URL" />
+    <p class="email">Email</p>
+    <input class="email-input" type="text" />
+    <p class="text">
+      By clicking Agree & join, you agree to the privacy policy.
+    </p>
+    <button class="agree">Agree & Join</button>
+    <div>
+      <img class="image" src="thumbnails/thumbnail-1.webp" alt="" />
+      <input class="inp4" type="text" placeholder="Whats happening" />
+      <button class="tweet">Tweet</button>
+    </div>
+  </body>
+</html>

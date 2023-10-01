@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Arial;
+      }
+      .container {
+        display: block;
+        margin: 10px;
+      }
+      .img-container {
+        display: inline-block;
+      }
+      .img-pic {
+        border-radius: 100px;
+        height: 60px;
+        margin-right: 10px;
+      }
+      .p-container {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: top;
+      }
+      .p-container :nth-child(1) {
+        font-weight: bold;
+      }
+      .p-container :nth-child(2) {
+        color: rgb(120, 120, 120);
+      }
+      .p-container :nth-child(3) {
+        color: rgb(120, 120, 120);
+      }
+      .btn-container {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 90px;
+        margin-top: 10px;
+      }
+      .btn-container > button {
+        background-color: rgb(40, 136, 233);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 10px;
+      }
+      .youtube-container {
+        width: 490px;
+        display: block;
+        margin: 10px;
+      }
+      .thumbnail-container {
+        display: inline-block;
+      }
+      .thumbnail-pic {
+        width: 150px;
+      }
+      .info-container {
+        display: inline-block;
+        vertical-align: top;
+        width: 220px;
+      }
+      .info-container > p:nth-child(1) {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 21px;
+      }
+      .info-container > p:nth-child(2) {
+        color: rgb(120, 120, 120);
+        margin-top: 8px;
+        font-size: 12px;
+      }
+      .info-container > p:nth-child(3) {
+        color: rgb(120, 120, 120);
+        font-size: 12px;
+        line-height: 18px;
+      }
+      .box {
+        display: inline-block;
+        margin-left: 10px;
+        width: 140px;
+        height: 209px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+          rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      }
+      .cat-container {
+        display: block;
+      }
+      .cat-container > .cat-pic {
+        width: 140px;
+        height: 120px;
+        object-fit: cover;
+      }
+      .cat-title {
+        font-weight: bold;
+        padding-left: 5px;
+      }
+      .small-img{
+        display: inline-block;
+      }
+      .small-img > img{
+        height: 20px;
+        border-radius: 100px;
+        margin-left: 5px;
+        margin-top: 2px;
+      }
+      .small-p{
+        display: inline-block;
+        vertical-align: top;
+      }
+      .small-p > p{
+        color: rgb(120, 120, 120);
+        font-size: 12px;
+        margin-top:4px;
+        margin-left: 2px;
+      }
+      .small-btn > button{
+        background-color: rgb(2, 113, 232);
+        border: none;
+        color: white;
+        margin-top: 4px;
+        padding: 7px 13px;
+        margin-left: 5px;
+        border-radius: 4px;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <img class="img-pic" src="/channels/channel-1.jpeg" alt="" />
+      </div>
+      <div class="p-container">
+        <p>oliver</p>
+        <p>the cat</p>
+        <p>Popular</p>
+      </div>
+      <div class="btn-container">
+        <button>Follow</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="img-container">
+        <img class="img-pic" src="/channels/channel-2.jpeg" alt="" />
+      </div>
+      <div class="p-container">
+        <p>pliver</p>
+        <p>sky cat</p>
+        <p>Popular</p>
+      </div>
+      <div class="btn-container">
+        <button>Follow</button>
+      </div>
+    </div>
+    <div class="youtube-container">
+      <div class="thumbnail-container">
+        <img class="thumbnail-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+      </div>
+      <div class="info-container">
+        <p>How to complete against CS degrees (as a self taught dev)</p>
+        <p>SumperSimpleDev</p>
+        <p>1.5K views &middot; 4 months ago</p>
+      </div>
+    </div>
+    <div class="youtube-container">
+      <div class="thumbnail-container">
+        <img class="thumbnail-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+      </div>
+      <div class="info-container">
+        <p>How to complete against CS degrees (as a self taught dev)</p>
+        <p>SumperSimpleDev</p>
+        <p>1.5K views &middot; 4 months ago</p>
+      </div>
+    </div>
+    <div class="youtube-container">
+      <div class="thumbnail-container">
+        <img class="thumbnail-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+      </div>
+      <div class="info-container">
+        <p>How to complete against CS degrees (as a self taught dev)</p>
+        <p>SumperSimpleDev</p>
+        <p>1.5K views &middot; 4 months ago</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="cat-container">
+        <img class="cat-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+      </div>
+      <div>
+        <p class="cat-title">Oliver</p>
+      </div>
+      <div>
+        <div class="small-img">
+          <img src="/channels/channel-1.jpeg" alt="" />
+        </div>
+        <div class="small-p">
+          <p>2 mutual friends</p>
+        </div>
+      </div>
+      <div class="small-btn">
+        <button >Add Friend</button>
+      </div>
+    </div>
+    <div class="box">
+      <div class="cat-container">
+        <img class="cat-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+      </div>
+      <div>
+        <p class="cat-title">Oliver</p>
+      </div>
+      <div>
+        <div class="small-img">
+          <img src="/channels/channel-1.jpeg" alt="" />
+        </div>
+        <div class="small-p">
+          <p>2 mutual friends</p>
+        </div>
+      </div>
+      <div class="small-btn">
+        <button >Add Friend</button>
+      </div>
+    </div>
+    <div class="box">
+      <div class="cat-container">
+        <img class="cat-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+      </div>
+      <div>
+        <p class="cat-title">Oliver</p>
+      </div>
+      <div>
+        <div class="small-img">
+          <img src="/channels/channel-1.jpeg" alt="" />
+        </div>
+        <div class="small-p">
+          <p>2 mutual friends</p>
+        </div>
+      </div>
+      <div class="small-btn">
+        <button >Add Friend</button>
+      </div>
+    </div>
+    <div class="box">
+      <div class="cat-container">
+        <img class="cat-pic" src="/thumbnails/thumbnail-1.webp" alt="" />
+      </div>
+      <div>
+        <p class="cat-title">Oliver</p>
+      </div>
+      <div>
+        <div class="small-img">
+          <img src="/channels/channel-1.jpeg" alt="" />
+        </div>
+        <div class="small-p">
+          <p>2 mutual friends</p>
+        </div>
+      </div>
+      <div class="small-btn">
+        <button >Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
